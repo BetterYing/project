@@ -7,142 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2e66ce-2e4a-452b-9f38-cb151bac7667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CashDemon/.idea/CashDemon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CashProject_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/60e20fea-b25c-419d-8ebb-dbd60aaee962.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CashProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CashProject_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CashProject_war_exploded/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CashProject_war_exploded/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CashProject_war_exploded/WEB-INF/lib/jackson-core-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CashProject_war_exploded/WEB-INF/lib/jackson-databind-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CashProject_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/BrowseOrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DelGoodsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/GoodsBrowseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/GoodsPutAwayServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/InboundServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ReadyByServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/UpdateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/buyGoodsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/script/query_Order_by_account.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/buyGoodsSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/Site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.pageRecord.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zy.tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/goodsbrowse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/inbound.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/_layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugs/JqueryMD5_DinJonYa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugs/JquerySQLDateToDate_DinJonYa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugs/Jqueryplugs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugs/jquery.SuperSlide.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderBrowse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/updategoods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/common/OrderStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/entity/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/entity/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/entity/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/entity/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/script/query_Order_by_account.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/BrowseOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/DelGoodsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/GoodsBrowseServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/GoodsPutAwayServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/InboundServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/ReadyByServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/UpdateServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlet/buyGoodsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/util/DBUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/common/OrderStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/entity/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/entity/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/entity/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/entity/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/script/query_Order_by_account.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/BrowseOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/DelGoodsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/GoodsBrowseServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/GoodsPutAwayServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/InboundServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/ReadyByServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/UpdateServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/servlet/buyGoodsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/lib/jackson-core-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/lib/jackson-databind-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/buyGoodsSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/Site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.pageRecord.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/css/zy.tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/goodsbrowse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/inbound.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/js/_layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/js/plugs/JqueryMD5_DinJonYa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/js/plugs/JquerySQLDateToDate_DinJonYa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/js/plugs/Jqueryplugs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/js/plugs/jquery.SuperSlide.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/orderBrowse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hello-bit-idea/updategoods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/buyGoodsSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/buyGoodsSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/goodsbrowse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/goodsbrowse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/inbound.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/inbound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderBrowse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/orderBrowse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/buyGoodsSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/buyGoodsSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/goodsbrowse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/goodsbrowse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/inbound.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/inbound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/orderBrowse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/orderBrowse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -238,9 +119,34 @@
     <session id="-737822844">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="account" value="1" />
+          <entry key="html" value="6" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="1" />
+          <entry key="HTML" value="6" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -250,24 +156,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UpdateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="36">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/buyGoodsSuccess.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/inbound.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/updategoods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+            <state relative-caret-position="351">
+              <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CashProject.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/orderBrowse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="34" column="149" selection-start-line="34" selection-start-column="149" selection-end-line="34" selection-end-column="149" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -282,6 +215,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/UpdateServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/updategoods.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/goodsbrowse.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderBrowse.html" />
       </list>
     </option>
   </component>
@@ -338,7 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,7 +297,7 @@
               <item name="CashProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CashProject" type="b2602c69:ProjectViewProjectNode" />
@@ -379,7 +314,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,22 +324,23 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583499889628" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583565226932" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/hello-bit-idea/META-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.121062994" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\project\project\CashProject\src\main\webapp" />
+      <recent name="C:\Users\lenovo\Desktop\project\project\CashProject\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\lenovo\Desktop\project\CashProject\src\main\webapp" />
       <recent name="C:\Users\lenovo\Desktop\project\CashProject\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\lenovo\Desktop\project\CashProject\src" />
-      <recent name="C:\Users\lenovo\Desktop\project\CashProject\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -575,6 +511,7 @@
       <workItem from="1583498866322" duration="1039000" />
       <workItem from="1583502818249" duration="3473000" />
       <workItem from="1583506527418" duration="66000" />
+      <workItem from="1583558072574" duration="3077000" />
     </task>
     <servers />
   </component>
@@ -584,7 +521,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9833000" />
+    <option name="totallyTimeSpent" value="12910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,7 +535,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2271625" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21341956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,16 +548,16 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.72291297" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.7224199" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.6192171" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.71708184" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32740214" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -629,7 +566,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.18755053" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.24413905" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24413905" />
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" side_tool="true" />
@@ -694,20 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ReadyByServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://60e20fea-b25c-419d-8ebb-dbd60aaee962/schema/cash/table/account">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -716,11 +643,6 @@
         <state relative-caret-position="-45">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderBrowse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/GoodsBrowseServlet.java">
@@ -751,11 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/goodsbrowse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2511">
@@ -763,22 +680,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UpdateServlet.java">
+    <entry file="file://$PROJECT_DIR$/CashProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="25" />
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://60e20fea-b25c-419d-8ebb-dbd60aaee962/schema/cash/table/account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inbound.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/buyGoodsSuccess.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/goodsbrowse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/updategoods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+        <state relative-caret-position="351">
+          <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CashProject.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderBrowse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="149" selection-start-line="34" selection-start-column="149" selection-end-line="34" selection-end-column="149" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -834,12 +802,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CashProject</last-edited>
+          <last-edited>Web|CashProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
