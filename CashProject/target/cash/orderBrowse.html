@@ -32,7 +32,8 @@
                         s += "<ol>";
                         for (var j = 0; j < data[i].orderItemList.length; j++) {
                             s +=  "<li>" +  data[i].orderItemList[j].goods_name +" "+  data[i].orderItemList[j].goods_num
-                                + data[i].orderItemList[j].goods_unit+" "+  data[i].orderItemList[j].goods_price * data[i].orderItemList[j].goods_num+"元</li>";
+                                + data[i].orderItemList[j].goods_unit+" "+
+                                (data[i].orderItemList[j].goods_price * 1.0 / 100) * data[i].orderItemList[j].goods_num  +"元</li>";
                         }
                         s += "</ol>";
                         s += "</td>";

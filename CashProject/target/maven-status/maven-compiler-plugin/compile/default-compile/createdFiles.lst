@@ -3,12 +3,9 @@ servlet\ReadyByServlet.class
 servlet\UpdateServlet.class
 entity\Account.class
 entity\Goods.class
-util\DBUtil.class
 servlet\DelGoodsServlet.class
 common\OrderStatus.class
-servlet\GoodsPutAwayServlet.class
 servlet\LoginServlet.class
-servlet\buyGoodsServlet.class
 entity\Order.class
 servlet\GoodsBrowseServlet.class
 servlet\InboundServlet.class

@@ -103,7 +103,7 @@ public class ReadyByServlet extends HttpServlet {
         resp.getWriter().println("<ol>");
         for (OrderItem orderItem  : order.orderItemList) {
             resp.getWriter().println("<li>" + orderItem.getGoods_name() +" " + orderItem.getGoods_num()+ " "+
-                    orderItem.getGoods_unit() + " " + orderItem.getGoods_price() + "</li>");
+                    orderItem.getGoods_unit() + " " + orderItem.getGoods_Price() + "</li>");
         }
         resp.getWriter().println("</ol>");
         resp.getWriter().println("<p>"+"【总金额】:"+order.getTotal_money() +"</p>");

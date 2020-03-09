@@ -13,8 +13,9 @@ public class Order {
     private String finish_time;
     private Integer actual_amount;
     private Integer total_money;
-
     private OrderStatus order_status;
+    public List<OrderItem> orderItemList = new ArrayList<>();//存放订单项
+
 
     public OrderStatus getOrder_statusDesc() {
         return order_status;
@@ -23,8 +24,6 @@ public class Order {
     public String getOrder_status() {
         return order_status.getDesc();
     }
-
-    public List<OrderItem> orderItemList = new ArrayList<>();//存放订单项
 
     public String getId() {
         return id;
@@ -74,18 +73,8 @@ public class Order {
         this.total_money = total_money;
     }
 
-
-
     public void setOrder_status(OrderStatus order_status) {
         this.order_status = order_status;
-    }
-
-    public List<OrderItem> getOrderItemList() {
-        return orderItemList;
-    }
-
-    public void setOrderItemList(List<OrderItem> orderItemList) {
-        this.orderItemList = orderItemList;
     }
 
     public double getTotal_money(){

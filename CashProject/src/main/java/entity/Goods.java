@@ -61,10 +61,10 @@ public class Goods {
     }
 
 
-    public double getPrice() {
-        return price * 1.0 /100;
+    public double getPrice(){
+        return price * 1.0 / 100;
     }
-    public int getPriceInt() {
+    public int getPriceInt(){
         return price;
     }
 

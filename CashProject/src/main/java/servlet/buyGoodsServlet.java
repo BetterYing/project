@@ -23,17 +23,24 @@ public class buyGoodsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         //System.out.println("buyGoodsServlet - doGet");
+        req.setCharacterEncoding("UTF-8");
+        resp.setContentType("text/html; charset=UTF-8");
+        resp.setCharacterEncoding("UTF-8");
         doPost(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         //System.out.println("buyGoodsServlet - doPost");
+        req.setCharacterEncoding("UTF-8");
+        resp.setContentType("text/html; charset=UTF-8");
+        resp.setCharacterEncoding("UTF-8");
+
         HttpSession session = req.getSession();
         Order order = (Order)session.getAttribute("order");
-        System.out.println(order);
+        //System.out.println(order);
         List<Goods> goodsList = (List<Goods>)session.getAttribute("goodsList");
-        System.out.println(goodsList);
+        //System.out.println(goodsList);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         order.setFinish_time(LocalDateTime.now().format(formatter));
 
@@ -68,7 +75,7 @@ public class buyGoodsServlet extends HttpServlet {
             connection = DBUtil.getConnection(true);
             preparedStatement = connection.prepareStatement(sql);
 
-            preparedStatement.setInt(1,goods.getStock() - buyGoodsNum);
+            preparedStatement.setInt(1,goods.getStock() - goods.getBuyGoodsNum());
             preparedStatement.setInt(2,goods.getId());
 
             if (preparedStatement.executeUpdate() == 1) {
@@ -113,7 +120,7 @@ public class buyGoodsServlet extends HttpServlet {
                 preparedStatement.setString(4,orderItem.getGoods_introduce());
                 preparedStatement.setInt(5,orderItem.getGoods_num());
                 preparedStatement.setString(6,orderItem.getGoods_unit());
-                preparedStatement.setInt(7,orderItem.getGoods_price());
+                preparedStatement.setInt(7,orderItem.getIntGoods_Price());
                 preparedStatement.setInt(8,orderItem.getGoods_discount());
                 //将每一项preparedStatement缓存
                 preparedStatement.addBatch();

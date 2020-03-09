@@ -8,6 +8,8 @@ public class OrderItem {
     private String goods_introduce;
     private Integer goods_num;
     private String goods_unit;
+    private Integer goods_price;
+    private Integer goods_discount;
 
     public Integer getGoods_price() {
         return goods_price;
@@ -24,9 +26,6 @@ public class OrderItem {
     public void setGoods_discount(Integer goods_discount) {
         this.goods_discount = goods_discount;
     }
-
-    private Integer goods_price;
-    private Integer goods_discount;
 
     public Integer getId() {
         return id;
@@ -84,10 +83,12 @@ public class OrderItem {
         this.goods_unit = goods_unit;
     }
 
+
     public double getGoods_Price(){
         return goods_price * 1.0 / 100;//单位：元
     }
-    public int getIntoods_Price(){
+
+    public int getIntGoods_Price(){
         return goods_price;//单位：分
     }
 }
