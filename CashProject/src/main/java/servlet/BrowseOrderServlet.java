@@ -39,6 +39,7 @@ public class BrowseOrderServlet extends HttpServlet {
             //判断查询结果，如果是空，说明没有订单
             System.out.println("订单链表为空");
         } else {
+            System.out.println(list);
             //如果不为空，那么将list转为json，发送给前端
             ObjectMapper mapper = new ObjectMapper();
             PrintWriter pw = resp.getWriter();//将响应包推给浏览器
@@ -100,8 +101,8 @@ public class BrowseOrderServlet extends HttpServlet {
         orderItem.setGoods_num(resultSet.getInt("goods_num"));
         orderItem.setGoods_unit(resultSet.getString("goods_unit"));
         orderItem.setGoods_price(resultSet.getInt("goods_price"));
-        System.out.println("==================================");
-        System.out.println(resultSet.getInt("goods_price"));
+//        System.out.println("==================================");
+//        System.out.println(resultSet.getInt("goods_price"));
         orderItem.setGoods_discount(resultSet.getInt("goods_discount"));
         return orderItem;
     }

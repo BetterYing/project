@@ -84,17 +84,17 @@ public class Goods {
     }
 
 
-//    @Override
-//    public String toString() {
-//        return "Goods{" +
-//                "id=" + id +
-//                ", name='" + name + '\'' +
-//                ", introduce='" + introduce + '\'' +
-//                ", stock=" + stock +
-//                ", unit='" + unit + '\'' +
-//                ", price=" + price +
-//                ", discount=" + discount +
-//                ", buyGoodsNum=" + buyGoodsNum +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", introduce='" + introduce + '\'' +
+                ", stock=" + stock +
+                ", unit='" + unit + '\'' +
+                ", price=" + price +
+                ", discount=" + discount +
+                ", buyGoodsNum=" + buyGoodsNum +
+                '}';
+    }
 }

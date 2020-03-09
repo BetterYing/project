@@ -91,4 +91,19 @@ public class OrderItem {
     public int getIntGoods_Price(){
         return goods_price;//单位：分
     }
+
+    @Override
+    public String toString() {
+        return "OrderItem{" +
+                "id=" + id +
+                ", order_id='" + order_id + '\'' +
+                ", goods_id=" + goods_id +
+                ", goods_name='" + goods_name + '\'' +
+                ", goods_introduce='" + goods_introduce + '\'' +
+                ", goods_num=" + goods_num +
+                ", goods_unit='" + goods_unit + '\'' +
+                ", goods_price=" + goods_price +
+                ", goods_discount=" + goods_discount +
+                '}';
+    }
 }

@@ -95,5 +95,18 @@ public class Order {
         return (this.getTotal_moneyInt()-this.getActual_amountInt()) * 1.0 / 100;
     }
 
-
+    @Override
+    public String toString() {
+        return "Order{" +
+                "id='" + id + '\'' +
+                ", account_id=" + account_id +
+                ", account_name='" + account_name + '\'' +
+                ", create_time='" + create_time + '\'' +
+                ", finish_time='" + finish_time + '\'' +
+                ", actual_amount=" + actual_amount +
+                ", total_money=" + total_money +
+                ", order_status=" + order_status +
+                ", orderItemList=" + orderItemList +
+                '}';
+    }
 }
