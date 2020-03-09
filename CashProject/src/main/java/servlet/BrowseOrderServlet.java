@@ -100,6 +100,8 @@ public class BrowseOrderServlet extends HttpServlet {
         orderItem.setGoods_num(resultSet.getInt("goods_num"));
         orderItem.setGoods_unit(resultSet.getString("goods_unit"));
         orderItem.setGoods_price(resultSet.getInt("goods_price"));
+        System.out.println("==================================");
+        System.out.println(resultSet.getInt("goods_price"));
         orderItem.setGoods_discount(resultSet.getInt("goods_discount"));
         return orderItem;
     }
